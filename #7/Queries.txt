@@ -1,0 +1,37 @@
+1. 
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name":"shoes", "price":12.3, "quantity":3, color":"black"}'  http://localhost:8098/buckets/s16539/keys/One
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name":"glasses", "price":20.2, "quantity":4, color":"white"}'  http://localhost:8098/buckets/s16539/keys/Two
+
+curl  -i -XPUT -H "Content-Type: application/json" -d '{"name":"trousers", "price":39.1, "quantity":2, color":"blue"}'  http://localhost:8098/buckets/s16539/keys/Three
+
+curl  -i -XPUT -H "Content-Type: application/json" -d '{"name":"T-shirt", "price":25.8, "quantity":5, color":"yellow"}'  http://localhost:8098/buckets/s16539/keys/Four
+
+curl  -i -XPUT -H "Content-Type: application/json" -d '{"name":"socks", "price":3.5, "quantity":7, color":"red"}'  http://localhost:8098/buckets/s16539/keys/Five
+
+2.
+Curl -i http://localhost:8098/buckets/s16539/keys/One
+
+3.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name":"shoes", "price":12.3, "quantity":3, color":"black", “size”:43}'  http://localhost:8098/buckets/s16539/keys/One
+
+4.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name":"shoes", "price":12.3, "quantity":3, color":"black"}'  http://localhost:8098/buckets/s16539/keys/One
+
+5.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name":"shoes", "price":122.3, "quantity":333, color":"dark"}'  http://localhost:8098/buckets/s16539/keys/One
+
+6.
+curl -i -XDELETE http://localhost:8098/buckets/s16539/keys/One
+
+7.
+curl -i http://localhost:8098/buckets/s16539/keys/One
+
+8.
+curl -i -H "Content-Type: application/json" -d '{"name":"shoes", "price":12.3, "quantity":3, color":"black"}'  http://localhost:8098/buckets/s16539/keys
+
+9.
+curl -i http://localhost:8098/buckets/s16539/keys/9QszTCShVaP5ji9l7uqOoGI1lp
+
+10.
+curl -i -XDELETE http://localhost:8098/buckets/s16539/keys/9QszTCShVaP5ji9l7uqOoGI1lp

@@ -1,0 +1,117 @@
+1.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 03 Dec 2019 18:06:17 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 03 Dec 2019 18:06:17 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 03 Dec 2019 18:06:17 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 03 Dec 2019 18:06:17 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 03 Dec 2019 18:06:17 GMT
+Content-Type: application/json
+Content-Length: 0
+
+2.
+{"name":"shoes", "price":12.3, "quantity":3, color":"black"}
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsYwHX/CwKAumMGUKJjHyiCpEH2dLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16539>; rel="up"
+Last-Modified: Tue, 03 Dec 2019 18:06:17 GMT
+ETag: "6U8oEpkUlaAoOt36ua3enV"
+Date: Tue, 03 Dec 2019 18:07:37 GMT
+Content-Type: application/json
+Content-Length: 60
+
+3.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 03 Dec 2019 18:11:39 GMT
+Content-Type: application/json
+Content-Length: 0
+
+4.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 03 Dec 2019 18:12:47 GMT
+Content-Type: application/json
+Content-Length: 0
+
+5.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 03 Dec 2019 18:14:07 GMT
+Content-Type: application/json
+Content-Length: 0
+
+6.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 03 Dec 2019 18:15:15 GMT
+Content-Type: application/json
+Content-Length: 0
+
+7.
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 03 Dec 2019 18:16:26 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+8.
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s16539/keys/9QszTCShVaP5ji9l7uqOoGI1lp
+Date: Wed, 04 Dec 2019 18:32:59 GMT
+Content-Type: application/json
+Content-Length: 0
+
+9.
+{"name":"shoes", "price":12.3, "quantity":3, color":"black"}
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsZw73JjYBQszGBKZMxjZbhdHnOdLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16539>; rel="up"
+Last-Modified: Wed, 04 Dec 2019 18:32:59 GMT
+ETag: "1NAtAgEGRiRbZrDLHwUu3y"
+Date: Wed, 04 Dec 2019 18:38:14 GMT
+Content-Type: application/json
+Content-Length: 60
+
+10.
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 04 Dec 2019 18:42:09 GMT
+Content-Type: application/json
+Content-Length: 0
