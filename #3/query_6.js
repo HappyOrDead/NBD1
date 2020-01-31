@@ -1,0 +1,1 @@
+printjson(db.people.insertOne({sex:"Male",first_name:"Illia",last_name:"Shynder",job:"Programmer",email: "1@1.com",location:{city:"Warsaw",address:{streetname:"PJATK",streetnumber:"2"}},description:"kek",height:"192",weight:"96",birth_date:"1998-05-22T00:00:00Z",nationality:"Ukraine",credit:[{type:"switch",number:"1111222233334444",currency:"PLN",balance:"100.50"}]}))
